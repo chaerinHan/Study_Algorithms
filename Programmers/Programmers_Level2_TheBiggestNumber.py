@@ -9,4 +9,4 @@ def solution(numbers):
     print(num)
     num.sort(key = lambda x : x*3, reverse = True) # ['6', '2', '10']
 
-    return str(int(''.join(num)))r
+    return str(int(''.join(num)))
